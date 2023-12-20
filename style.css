@@ -1,0 +1,69 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    color:aliceblue;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.form-holder{
+  
+    background-image: url(bgimage.jpg);
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:100vh;
+    color:purple;
+    font-size: 25px;
+    font-weight: bold;
+   
+    
+}
+
+.form-holder form{
+    border:1px solid rgb(245, 50, 245);
+    border-radius:10px;
+    background-color: rgb(249, 143, 215);
+    width:50%;
+    margin:auto;
+    padding:20px;
+    text-align:left;
+}
+
+
+.form-holder div{
+    width:100%;
+    margin:10px 0;
+   
+}
+.form-holder .form-input{
+    display:flex;
+    flex-direction:column;
+   
+}
+
+
+.form-holder div input{
+    padding:12px;
+    border-radius: 10px;
+   
+}
+.form-input div input{
+    margin-right:20px;
+    
+}
+.form-holder button{
+    width:100%;
+    background:purple;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+    color:white;
+    font-size:18px;
+    font-weight: 500;
+}
+

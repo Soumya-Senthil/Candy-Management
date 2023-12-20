@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Candy Stock Management</title>
+  
+</head>
+
+<body>    
+    <div class="form-holder">
+        <form>
+            <h1> Candy Stock Management System</h1>
+            
+            <div class="form-input">
+                <label id="name">CandyName:</label>
+                <input type="name" required><br>
+            </div>
+
+            <div class="form-input">
+                <label id="desc">Description:</label>
+                <input type="text" required><br>
+            </div>
+            <div class="form-input">
+                <label id="Price">Price:</label>
+                <input type="number" required><br>
+            </div>
+            <div class="form-input">
+                <label id="qty">Quantity:</label>
+                <input type="number" required><br>                
+            </div>
+            <button type="submit">AddCandy</button>
+        </form>
+
+    </div>
+    <div id="Users" style="max-width:1400px; margin:15px;">              
+    </div>
+    
+       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
